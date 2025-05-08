@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Seres Primordiais</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: #111;
+      color: #fff;
+      margin: 0;
+      padding: 20px;
+    }
+
+    canvas {
+      border: 3px solid white;
+      background-color: #000;
+      margin-bottom: 10px;
+    }
+
+    #restartBtn {
+      padding: 10px 20px;
+      font-size: 1rem;
+      margin: 10px;
+      background-color: #444;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+
+    #restartBtn:hover {
+      background-color: #666;
+    }
+
+    #scoreboard {
+      text-align: left;
+      margin-top: 10px;
+      background: #222;
+      padding: 10px 20px;
+      border-radius: 8px;
+      max-width: 600px;
+      width: 100%;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌱 Seres Primordiais</h1>
+  <button id="restartBtn">Reiniciar Simulação</button>
+  <div id="scoreboard">
+    <h3>Placar:</h3>
+    <ul>
+      <li>Inicializando...</li>
+    </ul>
+  </div>
+
+  <script src="ser-primordial.js"></script>
+</body>
+</html>
